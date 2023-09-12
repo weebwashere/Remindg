@@ -43,10 +43,6 @@ export default function Commands() {
                   <kbd>re serverinfo</kbd> -{" "}
                   <span className="p-color">gets info on your current server.</span>
                 </li>
-                <li>
-                  <kbd>re userinfo</kbd> -{" "}
-                  <span className="p-color">gets info on a user.</span>
-              </ul>
             </div>
           </section>
           <input type="radio" name="accordion" id="cb2" />
