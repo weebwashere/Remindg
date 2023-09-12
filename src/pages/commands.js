@@ -7,10 +7,10 @@ export default function Commands() {
   return (
     <>
       <Head>
-        <title>Commands | BOT</title>
+        <title>Commands | Reminder</title>
         <meta
           name="description"
-          content="Commands page | Minimal and awesome discord bot website created with ❤️ using NextJS"
+          content="commands page for reminder's website!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -20,29 +20,32 @@ export default function Commands() {
         <nav className="accordion arrows" id="commands">
           <header className="box">
             <label htmlFor="acc-close" className="box-title h-color">
-              ⚡ Commands
+              Commands
             </label>
           </header>
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
+              Utility ⚙️
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>re about</kbd> -{" "}
+                  <span className="p-color">shows info about the bot.</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>re help</kbd> -{" "}
+                  <span className="p-color">gets all commands from the bot.</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>re serverinfo</kbd> -{" "}
+                  <span className="p-color">gets info on your current server.</span>
                 </li>
+            <li>
+                  <kbd>re userinfo</kbd> -{" "}
+                  <span className="p-color">gets info on a user.</span>
               </ul>
             </div>
           </section>
