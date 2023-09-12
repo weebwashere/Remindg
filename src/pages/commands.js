@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -43,6 +42,7 @@ export default function Commands() {
                   <kbd>re serverinfo</kbd> -{" "}
                   <span className="p-color">gets info on your current server.</span>
                 </li>
+              </ul>
             </div>
           </section>
           <input type="radio" name="accordion" id="cb2" />
