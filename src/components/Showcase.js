@@ -7,13 +7,12 @@ const Showcase = () => {
   return (
     <>
       <main className="showcase">
-        <h1 className="showcase-header h-color">BOT</h1>
+        <h1 className="showcase-header h-color">Reminder</h1>
         <h2 className="showcase-header-text h-color">
-          The only discord bot you need!
+          The only guilded bot you need!
         </h2>
         <p className="showcase-para p-color">
-          One of the awesome discord bot with tons of commands that will fill
-          your needs in your discord server.
+          Reminder is a guilded bot integrated with features able to remind you directly through guilded!
         </p>
         <Image
           src={botOnlineStatus}
